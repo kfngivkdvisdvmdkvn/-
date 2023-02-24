@@ -1,5 +1,5 @@
 Variable ={}
-Variable["RegisterURL"] = "https://github.com/kfngivkdvisdvmdkvn/-/blob/8cf95837080248f636911c9505fa770f81fc9d3f/Login.php"
+Variable["RegisterURL"] = "Your Website Here"
 Prompt = gg.prompt({"Username","Password","ConfirmPassword","Back"},nil,{"text","text","text","checkbox"})
 	if not Prompt then
 	return

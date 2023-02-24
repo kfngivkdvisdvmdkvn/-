@@ -5,7 +5,7 @@ function ExitAlert($msg){
 
 $JDecode = json_decode(file_get_contents('php://input'),true); 
 $FileName = "LoginData.data";
-$ScriptName = "555";
+$ScriptName = "Your Script Name";
 $username= $JDecode["Username"];
 $password=  $JDecode["Password"];
 $content =json_decode(file_get_contents($FileName),true);
